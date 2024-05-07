@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+</head>
+<body>
+    <a href="index.html">Regresar</a>
+    <form action="" style="width: 300px; margin: auto; border: 1px solid black; padding: 10px;">
+        Registrarse
+        <hr>
+        <p>
+            <label for="txt_nombre">Nombre(s)</label>
+            <br>
+            <input type="text" name="txt_nombre" id="txt_nombre" size="38" placeholder="Nombres exactos, incluya tildes">
+        </p>
+        <p>
+            <label for="txt_apellido">Apellido(s)</label>
+            <br>
+            <input type="text" name="txt_apellido" id="txt_apellido" size="38">
+        </p>
+        <p>
+            <label for="txt_telefono">Teléfono(s)</label>
+            <br>
+            <input type="text" name="txt_telefono" id="txt_telefono" size="38">
+        </p>
+        <p>
+            <label for="txt_fecha">Fecha de nacimiento</label>
+            <input type="date" name="txt_fecha" id="txt_fecha">
+        </p>
+        <p>
+            Genero
+            <br>
+            <input type="radio" name="opt_genero" id="opt_genero_h">
+            <label for="opt_genero">Hombre</label>
+            <input type="radio" name="opt_genero" id="opt_genero_m">
+            <label for="opt_genero">Mujer</label>
+
+        </p>
+        <p>
+            Intereses
+            <br>
+            <input type="checkbox" name="chk_intereses" id="chk_intereses1">
+            <label for="chk_intereses">Educación</label>
+            <input type="checkbox" name="chk_intereses" id="chk_intereses4">
+            <label for="chk_intereses">Deportes</label>
+            <input type="checkbox" name="chk_intereses" id="chk_intereses3">
+            <label for="chk_intereses">Arte</label>
+            <input type="checkbox" name="chk_intereses" id="chk_intereses4">
+            <label for="chk_intereses">Ocio</label>
+        </p> 
+        <p>
+            <label for="lst_nivel_acad">Nivel Académico</label>
+            <br>
+            <select name="lst_nivel_acad" id="">
+                <option value="1">Primaria</option>
+                <option value="2">Básicos</option>
+                <option value="3">Diversificado</option>
+                <option value="4">Técnico</option>
+                <option value="5">Licenciatura</option>
+                <option value="6">Postgrado</option>
+                <option value="7">Maestría</option>
+                <option value="8">Doctorado</option>
+            </select>
+        </p> 
+        <p>
+            <label for="txt_correo">Correo Electrónico</label>
+            <br>
+            <input type="email" name="txt_correo" id="txt_corre">
+        </p>   
+        <p>
+            <a href="index.html">
+                <input type="button" value="Registrarse">
+            </a>
+            <a href="https://classroom.google.com/">
+                <input type="button" value="classroom">
+            </a>
+            
+        </p>
+    </form>
+</body>
+</html>
